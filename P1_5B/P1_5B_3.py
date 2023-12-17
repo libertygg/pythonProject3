@@ -1,15 +1,17 @@
 num = 5.12
-
-def squaring_1(x):
-    sq = x**2
+y = 2
+def squaring(x,y):
+    sq = x**y
     return sq
 
-def squaring_2(x):
-    if len(x):
-        squaring_2(x**2)
+def squaring_rec(x,y):
+    if y == 1:
+        return(x)
+    if y != 1:
+        sq_rec = x * squaring_rec(x, y-1)
+        return sq_rec
 
-
-S1 = squaring_1(num)
+S1 = squaring(num,y)
 print(S1)
-S2 = squaring_2(num)
+S2 = squaring_rec(num,y)
 print(S2)
