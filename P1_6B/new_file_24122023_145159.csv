@@ -1,0 +1,5 @@
+,Quantity,Price,Freight,filename,Unnamed: 0,Total
+0,543,345,313,orderdata_sample_3.csv,,
+1,123,423,312,orderdata_sample_3.csv,,
+0,543,345,313,Order_with_Total_4.csv,0.0,1201.0
+1,123,423,312,Order_with_Total_4.csv,1.0,858.0
